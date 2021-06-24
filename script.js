@@ -18,11 +18,11 @@ function play () {
   // These are for telling the user if they need to guess higher or lower.
 
     if (guess > number) {
-    alert('Guess is too high.')
+    alert('Guess is too high, try again.')
     } else if (guess < number) {
-    alert('Guess is too low.')
+    alert('Guess is too low, try again.')
     } else if (guess === number) {
-    alert('you got it right')
+    alert('You got it right.Yay you win !')
     }
   }
 }
